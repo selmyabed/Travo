@@ -290,7 +290,7 @@ button:focus {
 /* Start Landing Page */
 .landing-page {
     min-height: 100vh;
-/*     background-image: url("images/08.jpg"); */
+    background-image: url("images/08.jpg");
     background-attachment: fixed;
     background-size: cover;
     position: relative;
