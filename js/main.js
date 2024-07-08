@@ -118,7 +118,8 @@ function randomizeBg() {
         bgInterval = setInterval(() =>{
             // Random number for imgs index
             let random = Math.floor(Math.random() * imgs.length);
-            landing.style.backgroundImage = `url('../images/${imgs[random]}.jpg')`
+            // landing.style.backgroundImage = `url('../images/${imgs[random]}.jpg')`
+            document.styleSheets[3].cssRules[46].style.setProperty('background-image', `url('../images/${imgs[random]}.jpg')`, "important");
             localStorage.setItem('main-bg', imgs[random])
         },4000)
     }
